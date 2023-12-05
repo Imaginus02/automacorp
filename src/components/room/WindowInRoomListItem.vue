@@ -8,8 +8,8 @@
             <span class="icon">&#x2B24;</span> Open
           </div>
         </template>
-        <template>
-          <div v-else>
+        <template v-else>
+          <div>
             <span class="icon">&#x2716;</span> Closed
           </div>
         </template>
