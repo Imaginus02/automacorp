@@ -1,5 +1,4 @@
- import axios from 'axios';
- import * as url from "url";
+import axios from 'axios';
 
 export function axiosConfig() {
     // Setup a request interceptor in order to have basic auth

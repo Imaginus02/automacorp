@@ -1,6 +1,6 @@
-import { createApp } from 'vue'
+import {createApp} from 'vue'
 import App from './App.vue'
-import { axiosConfig } from './axios.config'
+import {axiosConfig} from './axios.config'
 
 axiosConfig();
 createApp(App).mount('#app')
