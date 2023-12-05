@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 @RestController // (1)
 @RequestMapping("/api/sensors") // (2)
 @Transactional // (3)
-public class SensorController {
+public class    SensorController {
     private final SensorDao sensorDao;
 
     public SensorController(SensorDao sensorDao) {
